@@ -1,0 +1,39 @@
+npm install --save-dev hardhat
+
+npx hardhat
+
+npm install --save-dev "hardhat@^2.10.1" "@nomicfoundation/hardhat-toolbox@^1.0.1"
+
+npx hardhat run scripts/deploy-sb.ts
+
+npx hardhat run --network localhost scripts/deploy-sb.ts
+
+npx hardhat node
+
+npx hardhat test
+
+// shorcut installation
+npm install --global hardhat-shorthand
+
+
+https://goerlifaucet.com/
+
+// deploy y verify en goerli
+
+npx hardhat run --network goerli scripts/deploy-rtc.ts
+
+//como se deben madnar los parametros iniciales, en este caso eth, se traduce a wei en
+https://eth-converter.com/
+
+npx hardhat verify --network goerli 0x693Ef0B107F680D69182089C2A0A05901F08F303 1000000000000000000000
+
+
+
+ejemplos:
+https://github.com/javiermatias/SimpleBank
+
+https://github.com/agustinruatta/solidity_bank
+
+https://github.com/carlosrivas2021/BankLikeYou
+
+https://github.com/julpar/SimpleBank
